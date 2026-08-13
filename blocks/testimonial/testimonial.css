@@ -1,0 +1,39 @@
+.testimonial {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 48px 32px;
+  text-align: center;
+}
+
+.testimonial > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.testimonial img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial p {
+  margin: 0;
+}
+
+.testimonial p:nth-child(2) {
+  font-size: 20px;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+.testimonial p:nth-child(3) {
+  font-weight: 700;
+}
+
+.testimonial p:nth-child(4) {
+  color: #666;
+  font-size: 14px;
+}
